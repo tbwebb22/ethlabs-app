@@ -1,16 +1,23 @@
 "use client";
 import React, { useState } from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <nav className="bg-gray-800 text-white p-3">
+    <>
+    <div className="bg-[#09111c] text-white p-3">
       <div className="container mx-auto flex items-center justify-between">
         <div>
           <Link href="/">
-            ETHLabs
+            <Image
+              src="/fullLogoLight.png"
+              alt="Logo"
+              width="200"
+              height="1"
+            />
           </Link>
         </div>
         <div className="md:hidden">
@@ -21,15 +28,18 @@ export default function Navbar() {
           </button>
         </div>
         <div className={`md:flex md:items-center ${isOpen ? 'block' : 'hidden'}`}>
-          <Link className="mx-8" href="/library">
+          <Link className="mx-8 text-xl text-[#aac5e3] hover:text-[#cdffb8]" href="/library">
             Library
           </Link>
-          <Link className="mx-8" href="/university">
+          <Link className="mx-8 text-xl text-[#aac5e3] hover:text-[#cdffb8]" href="/university">
             University
           </Link>
-          {/* Add more links as needed */}
         </div>
       </div>
-    </nav>
+    </div>
+    <div className="bg-[#aac5e3] h-[1px]">
+
+    </div>
+    </>
   );
 };
