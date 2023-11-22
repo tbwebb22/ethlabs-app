@@ -25,3 +25,15 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+
+/* styles/fonts.css */
+@font-face {
+  font-family: 'eurostile';
+  src: url('/eurostile.ttf') format('truetype'); /* for TTF file */
+  font-weight: normal;
+  font-style: normal;
+}
+
+html, body {
+  font-family: 'eurostile', ui-sans-serif, system-ui;
+}
