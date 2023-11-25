@@ -34,10 +34,10 @@ export default function Navbar() {
           {/* <Link className="mx-8 text-xl text-[#aac5e3] hover:text-[#cdffb8]" href="/library">
             Library
           </Link> */}
-          <Link className="mx-8 text-2xl font-medium text-[#aac5e3] hover:text-[#cdffb8]" href="/library">
+          <Link className="mx-8 text-3xl font-medium text-[#aac5e3] hover:text-[#cdffb8]" href="/library">
             Library
           </Link>
-          <Link className="mx-8 text-2xl font-medium text-[#aac5e3] hover:text-[#cdffb8]" href="/university">
+          <Link className="mx-8 text-3xl font-medium text-[#aac5e3] hover:text-[#cdffb8]" href="/university">
             University
           </Link>
           {/* <Link className="rounded-sm px-2 py-1 border-2 border-[#aac5e3] mx-8 text-2xl font-medium text-[#aac5e3] hover:text-[#cdffb8]" href="/university">

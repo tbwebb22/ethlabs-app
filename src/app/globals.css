@@ -26,14 +26,41 @@ body {
     rgb(var(--background-start-rgb));
 }
 
-/* styles/fonts.css */
 @font-face {
-  font-family: 'eurostile';
-  src: url('/eurostile.ttf') format('truetype'); /* for TTF file */
-  font-weight: normal;
+  font-family: 'Eurostile';
+  src: url('/fonts/EurostileRegular.woff2') format('woff2');
+  font-weight: 400; /* Regular */
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Eurostile';
+  src: url('/fonts/EurostileMedium.woff2') format('woff2');
+  font-weight: 500; /* Medium */
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Eurostile';
+  src: url('/fonts/EurostileBold.woff2') format('woff2');
+  font-weight: 600; /* Bold */
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Eurostile';
+  src: url('/fonts/EurostileHeavy.woff2') format('woff2');
+  font-weight: 700; /* Heavy */
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Eurostile';
+  src: url('/fonts/EurostileBlack.woff2') format('woff2');
+  font-weight: 800; /* Black */
   font-style: normal;
 }
 
 html, body {
-  font-family: 'eurostile', ui-sans-serif, system-ui;
+  font-family: 'Eurostile', ui-sans-serif, system-ui;
 }

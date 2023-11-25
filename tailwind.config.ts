@@ -1,5 +1,11 @@
 import type { Config } from 'tailwindcss'
 
+// font-normal == 400
+// font-medium == 500
+// font-semibold == 600
+// font-bold == 700
+// font-extrabold == 800
+
 const config: Config = {
   content: [
     './src/pages/**/*.{js,ts,jsx,tsx,mdx}',
@@ -15,7 +21,7 @@ const config: Config = {
       },
     },
     fontFamily: {
-      'sans': ['eurostile', 'ui-sans-serif', 'system-ui'],
+      'sans': ['Eurostile', 'ui-sans-serif', 'system-ui'],
     }
   },
   plugins: [],
