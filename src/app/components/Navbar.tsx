@@ -8,7 +8,9 @@ export default function Navbar() {
 
   return (
     <div className="absolute z-40 w-full">
-    <div className="bg-gradient-to-b from-[#000000] to-transparent p-3">
+    {/* <div className="bg-gradient-to-b from-[#000000] to-[#000000]/0 p-3"> */}
+    <div className="p-3"> 
+    {/* <div className="bg-[#000000]/60 p-3"> */}
       <div className="container mx-auto flex items-center justify-between">
         <div>
           <Link href="/">
