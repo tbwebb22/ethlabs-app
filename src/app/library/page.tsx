@@ -3,19 +3,18 @@ import Image from 'next/image';
 import { useEffect, useState } from 'react';
 import Select, { ActionMeta, MultiValue } from 'react-select';
 import makeAnimated from 'react-select/animated';
+import resourcesAndTags from '../resources';
+
+const { resources, tags } = resourcesAndTags;
 
 export default function Library() {
   const [selectedTags, setSelectedTags] = useState<string[]>();
-  const options = [
-    { value: 'erc-20', label: 'ERC-20' },
-    { value: 'erc-721', label: 'ERC-721' },
-    { value: 'erc-1155', label: 'ERC-1155' }
-  ];
 
   const animatedComponents = makeAnimated();
 
   useEffect(() => {
     console.log('selectedTags: ', selectedTags);
+    console.log('TAGS array! ', tags);
   }, [selectedTags]);
 
   const handleChange = (_selectedTags: MultiValue<{
@@ -34,11 +33,12 @@ export default function Library() {
         Welcome to the ETHLabs Library
 
         <Select
+          instanceId={'tagSelector'}
           closeMenuOnSelect={false}
           components={animatedComponents}
-          defaultValue={[options[0]]}
+          defaultValue={[tags[0]]}
           isMulti
-          options={options}
+          options={tags}
           onChange={handleChange}
         />
       </div>
