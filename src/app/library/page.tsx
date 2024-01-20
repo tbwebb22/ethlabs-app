@@ -1,7 +1,7 @@
 "use client";
 import Image from 'next/image';
 import { useEffect, useState } from 'react';
-import Select, { ActionMeta, MultiValue } from 'react-select';
+import Select, { ActionMeta, MultiValue, StylesConfig } from 'react-select';
 import makeAnimated from 'react-select/animated';
 import resourcesAndTags from '../resources';
 
@@ -42,6 +42,57 @@ export default function Library() {
           isMulti
           options={tags}
           onChange={handleChange}
+          styles={{
+            multiValue: (provided) => ({
+              ...provided,
+              backgroundColor: '#101f35ff',
+            }),
+            multiValueLabel: (provided) => ({
+              ...provided,
+              color: '#58fe13aa',
+            }),
+            option: (provided, state) => ({
+              ...provided,
+              color: state.isSelected ? 'yourSelectedTextColor' : '#58fe13', // Replace 'yourSelectedTextColor' with the color for selected text
+              backgroundColor: state.isSelected ? 'yourSelectedBackgroundColor' : 'yourBackgroundColor', // Replace with your desired background colors for selected and regular states
+              ':active': {
+                backgroundColor: state.isSelected ? 'yourActiveSelectedBackgroundColor' : 'yourActiveBackgroundColor', // Replace with your desired background colors for active states
+              },
+            }),
+            // control: (provided) => ({
+            //   ...provided,
+            //   backgroundColor: '#244776', // Background color for the control
+            //   borderColor: '#244776'
+            // }),
+            control: (provided, state) => ({
+              ...provided,
+              backgroundColor: '#244776',
+              borderColor: state.isFocused ? '#417ec3' : '#244776',
+              boxShadow: state.isFocused ? `0 0 0 1px ${'#417ec3'}` : 'none',
+              ':hover': {
+                borderColor: '#417ec3', // Border color on hover
+              },
+            }),
+            menu: (provided) => ({
+              ...provided,
+              backgroundColor: '#244776', // Background color for the menu
+            }),
+            dropdownIndicator: (provided, state) => ({
+              ...provided,
+              color: state.isFocused ? '#58fe13ff' : '#58fe1399',
+              ':hover': {
+                color: '#58fe13ff', // Color on hover
+              },
+            }),
+            clearIndicator: (provided, state) => ({
+              ...provided,
+              color: state.isFocused ? '#58fe13ff' : '#58fe1399',
+              ':hover': {
+                color: '#58fe13ff', // Color on hover
+              },
+            }),
+          }}
+          
         />
       </div>
     </main>
