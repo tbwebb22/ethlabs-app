@@ -30,7 +30,9 @@ export default function Library() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-24">
       <div className="container mx-auto">
+        <div className="text-xl text-white text-opacity-70">
         Welcome to the ETHLabs Library
+        </div>
 
         <Select
           instanceId={'tagSelector'}
