@@ -21,7 +21,8 @@ const config: Config = {
       },
     },
     fontFamily: {
-      'sans': ['Eurostile', 'ui-sans-serif', 'system-ui'],
+      // 'sans': ['Eurostile', 'ui-sans-serif', 'system-ui'],
+      'orbitron': ['Orbitron', 'sans-serif'],
     }
   },
   plugins: [],
