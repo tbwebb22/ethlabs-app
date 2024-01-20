@@ -15,11 +15,11 @@ export default function Navbar() {
         <div>
           <Link href="/">
             <Image
-              src="/fullLogoLight.png"
+              src="/LogoWithText.png"
               alt="Logo"
               width="200"
               height="1"
-              className="opacity-90"
+              className="opacity-100"
             />
           </Link>
         </div>
@@ -31,10 +31,10 @@ export default function Navbar() {
           </button>
         </div>
         <div className={`md:flex md:items-center ${isOpen ? 'block' : 'hidden'}`}>
-          <Link className="mx-8 text-3xl font-normal text-[#aac5e3] hover:text-[#cdffb8]" href="/library">
+          <Link className="px-10 py-1 text-2xl hover:bg-black/30 font-orbitron font-medium text-[#417ec3] hover:text-[#cdffb8]" href="/library">
             Library
           </Link>
-          <Link className="mx-8 text-3xl font-normal text-[#aac5e3] hover:text-[#cdffb8]" href="/university">
+          <Link className="px-10 py-1 text-2xl hover:bg-black/30 font-orbitron font-medium text-[#417ec3] hover:text-[#cdffb8]" href="/library">
             University
           </Link>
         </div>
