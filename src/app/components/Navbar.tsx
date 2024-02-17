@@ -15,12 +15,19 @@ export default function Navbar() {
         <div>
           <Link href="/">
             <Image
-              src="/LogoWithText.png"
+              src="/ETHLabsLogo.png"
               alt="Logo"
               width="200"
               height="1"
               className="opacity-100"
             />
+            {/* <Image
+              src="/ETHLabsLogoGlow.png"
+              alt="Logo"
+              width="200"
+              height="1"
+              className="opacity-100 hidden hover:inline"
+            /> */}
           </Link>
         </div>
         <div className="md:hidden">
@@ -31,10 +38,10 @@ export default function Navbar() {
           </button>
         </div>
         <div className={`md:flex md:items-center ${isOpen ? 'block' : 'hidden'}`}>
-          <Link className="px-10 py-1 text-2xl hover:bg-black/30 font-orbitron font-medium text-[#417ec3] hover:text-[#cdffb8]" href="/library">
+          <Link className="mx-2 px-10 py-1 text-2xl hover:bg-black/30 font-orbitron font-medium text-[#417ec3] hover:text-[#cdffb8]" href="/library">
             Library
           </Link>
-          <Link className="px-10 py-1 text-2xl hover:bg-black/30 font-orbitron font-medium text-[#417ec3] hover:text-[#cdffb8]" href="/library">
+          <Link className="mx-2 px-10 py-1 text-2xl hover:bg-black/30 font-orbitron font-medium text-[#417ec3] hover:text-[#cdffb8]" href="/library">
             University
           </Link>
         </div>

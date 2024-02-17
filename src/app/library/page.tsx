@@ -49,7 +49,7 @@ export default function Library() {
             }),
             multiValueLabel: (provided) => ({
               ...provided,
-              color: '#58fe13aa',
+              color: '#ffffff',
             }),
             option: (provided, state) => ({
               ...provided,
@@ -70,7 +70,7 @@ export default function Library() {
               borderColor: state.isFocused ? '#417ec3' : '#244776',
               boxShadow: state.isFocused ? `0 0 0 1px ${'#417ec3'}` : 'none',
               ':hover': {
-                borderColor: '#417ec3', // Border color on hover
+                borderColor: '#ffffff22', // Border color on hover
               },
             }),
             menu: (provided) => ({
