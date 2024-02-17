@@ -12,21 +12,6 @@ export const metadata: Metadata = {
   description: 'The ETHLabs.io webapp',
 }
 
-// export default function RootLayout({
-//   children,
-// }: {
-//   children: React.ReactNode
-// }) {
-//   return (
-//     <html lang="en">
-//       <body className="font-sans">
-//         <Navbar />
-//         {children}
-//       </body>
-//     </html>
-//   )
-// }
-
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en">
