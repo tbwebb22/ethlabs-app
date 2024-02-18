@@ -1,17 +1,29 @@
 import Image from 'next/image'
+import Link from 'next/link'
 
 export default function Home() {
-
   return (
-    <div className="absolute top-0 h-[1000px] w-full overflow-hidden z-0">
+    <div className="flex place-content-center">
+      <div className="absolute top-[250px] text-center text-3xl text-[#bdfea3] opacity-60">
+      Building and educating on
+      <br />
+      Ethereum for the Web3 era
+      </div>
+      <div className="group absolute top-[500px] flex justify-center items-center p-2">
+        <Link href="https://google.com">
         <Image 
-            src="/ETHLabsCity.png"
-            alt="Hero Image" 
-            layout="fill" 
-            objectFit="cover"
+            src="/CTAButton.png"
+            className="opacity-80 group-hover:opacity-100"
+            alt="Let's work together" 
+            width={400}
+            height={200}
             priority
         />
-        <div className="absolute top-0 left-0 right-0 bottom-0 bg-black bg-opacity-60" />
+        <div className="absolute inset-0 flex justify-center items-center">
+          <span className="text-[#c9e2fa] group-hover:text-[#bdfea3] group-hover:opacity-70 font-orbitron text-2xl font-medium">Let&apos;s work together</span>
+        </div>
+        </Link>
+      </div>
     </div>
   )
 }
