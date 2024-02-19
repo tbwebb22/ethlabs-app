@@ -8,9 +8,7 @@ export default function Navbar() {
 
   return (
     <div className="absolute z-40 w-full">
-    {/* <div className="bg-gradient-to-b from-[#000000] to-[#000000]/0 p-3"> */}
     <div className="p-3"> 
-    {/* <div className="bg-[#000000]/60 p-3"> */}
       <div className="container mx-auto flex items-center justify-between">
         <div>
           <Link href="/">
@@ -33,6 +31,9 @@ export default function Navbar() {
         <div className={`md:flex md:items-center ${isOpen ? 'block' : 'hidden'}`}>
           <Link className="mx-2 px-10 py-1 text-2xl hover:bg-black/30 font-orbitron font-medium text-[#417ec3] hover:text-[#cdffb8]" href="/blog">
             Blog
+          </Link>
+          <Link className="mx-2 px-10 py-1 text-2xl hover:bg-black/30 font-orbitron font-medium text-[#417ec3] hover:text-[#cdffb8]" href="/blog">
+            Memos
           </Link>
           <Link className="mx-2 px-10 py-1 text-2xl hover:bg-black/30 font-orbitron font-medium text-[#417ec3] hover:text-[#cdffb8]" href="/about">
             About
