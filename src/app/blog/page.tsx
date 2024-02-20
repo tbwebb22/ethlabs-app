@@ -1,13 +1,21 @@
 "use client";
-import hljs from 'highlight.js/lib/core';
-import javascript from 'highlight.js/lib/languages/javascript';
 
-hljs.registerLanguage('javascript', javascript);
+import CodeBlock from "../components/CodeBlock";
 
 export default function Blog() {
+  const codeString1 = 
+`// SPDX-License-Identifier: MIT
+// compiler version must be greater than or equal to 0.8.20 and less than 0.9.0
+pragma solidity ^0.8.20;
+  
+contract HelloWorld {
+  string public greet = "Hello World!";
+}`
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-24">
+                <CodeBlock code={codeString1} />
         <div className="container mx-auto max-w-2xl text-xl">
+
           ***dummy text from chatGPT*** 
           <br />
           <br />

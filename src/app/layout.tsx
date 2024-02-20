@@ -5,7 +5,8 @@ import { Inter } from 'next/font/google'
 import './globals.css'
 import Navbar from './components/Navbar'
 import Image from 'next/image'
-import "highlight.js/styles/github.css"
+// import "highlight.js/styles/github.css"
+import 'highlight.js/styles/dark.css';
 
 const inter = Inter({ subsets: ['latin'] })
 
