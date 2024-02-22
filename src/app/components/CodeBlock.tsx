@@ -8,7 +8,7 @@ const CodeBlock: React.FC<{ code: string }> = ({ code }) => {
 
   return (
     <pre>
-      <code className="solidity">{code}</code>
+      <code className="solidity text-sm">{code}</code>
     </pre>
   );
 };
