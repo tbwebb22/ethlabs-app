@@ -11,13 +11,13 @@ export default function Navbar() {
     <div className="p-3"> 
       <div className="container mx-auto flex items-center justify-between">
         <div>
-          <Link href="/">
+          <Link href="/" className="">
             <Image
               src="/ETHLabsLogo.png"
               alt="Logo"
-              width="200"
+              width="250"
               height="1"
-              className="opacity-100"
+              className="opacity-100 mx-2 px-10 py-1 hover:bg-black/100"
             />
           </Link>
         </div>
@@ -29,13 +29,13 @@ export default function Navbar() {
           </button>
         </div>
         <div className={`md:flex md:items-center ${isOpen ? 'block' : 'hidden'}`}>
-          <Link className="mx-2 px-10 py-1 text-2xl hover:bg-black/30 font-orbitron font-medium text-[#417ec3] hover:text-[#cdffb8]" href="/blog">
+          <Link className="mx-2 px-10 py-1 text-2xl hover:bg-black/50 font-orbitron font-medium text-[#417ec3] hover:text-[#cdffb8]" href="/blog">
             Blog
           </Link>
-          <Link className="mx-2 px-10 py-1 text-2xl hover:bg-black/30 font-orbitron font-medium text-[#417ec3] hover:text-[#cdffb8]" href="/blog">
+          <Link className="mx-2 px-10 py-1 text-2xl hover:bg-black/50 font-orbitron font-medium text-[#417ec3] hover:text-[#cdffb8]" href="/blog">
             Memos
           </Link>
-          <Link className="mx-2 px-10 py-1 text-2xl hover:bg-black/30 font-orbitron font-medium text-[#417ec3] hover:text-[#cdffb8]" href="/about">
+          <Link className="mx-2 px-10 py-1 text-2xl hover:bg-black/50 font-orbitron font-medium text-[#417ec3] hover:text-[#cdffb8]" href="/about">
             About
           </Link>
         </div>
