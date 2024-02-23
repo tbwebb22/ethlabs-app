@@ -16,8 +16,8 @@ contract HelloWorld {
   return (
     <main className="flex flex-col items-center justify-between p-24">
       <Link href="/blog/delegatecall">
-      <div className="flex flex-row w-[720px] h-18 rounded-r-full text-[#bdfea3] text-opacity-60 hover:text-opacity-80 text-2xl pl-5 pt-[10px] pb-[3px] bg-[#101f35]/70 hover:bg-[#101f35]/100">
-        &lt;&gt; A mental model for understanding delegatecall
+      <div className="flex flex-row w-[720px] h-18 rounded-r-full text-[#bdfea3] text-opacity-70 hover:text-opacity-90 text-2xl pl-5 pt-[10px] pb-[3px] bg-black/70 hover:bg-black/90">
+        &gt; A mental model for understanding delegatecall
       </div>
       </Link>
     </main>

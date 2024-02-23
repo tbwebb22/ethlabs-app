@@ -3,6 +3,7 @@ import CodeBlock from "../../components/CodeBlock";
 import Image from 'next/image'
 import H from "@/app/components/H";
 import { useState } from "react";
+import Link from "next/link";
 
 export default function Delegatecall() {
     const [answerRevealed, setAnswerRevealed] = useState<boolean>(false);
@@ -79,10 +80,13 @@ contract D {
 `
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-24">
-                
-        <div className="container mx-auto max-w-3xl text-xl mt-12 text-[#bdfea3] text-opacity-75 bg-black/70 p-10">
+          <div className="container mx-auto max-w-3xl items-start text-xl mt-12 text-[#bdfea3] text-opacity-75">
+            <Link href="/blog" className="py-1 pr-2">
+            &larr; Back
+            </Link>
+          </div>
+        <div className="container mx-auto max-w-3xl text-xl mt-2 text-[#bdfea3] text-opacity-75 bg-black/70 p-10">
             <div className="text-4xl font-medium"> 
-            {/* text-[#417ec3] */}
             A mental model for understanding <H>delegatecall</H>
             </div>
             <br /><br />
