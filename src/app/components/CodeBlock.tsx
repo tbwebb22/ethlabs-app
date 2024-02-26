@@ -1,5 +1,5 @@
-import React, { useEffect } from 'react';
-import hljs from '../utils/highlightSetup';
+import React, { useEffect } from "react";
+import hljs from "../utils/highlightSetup";
 
 const CodeBlock: React.FC<{ code: string }> = ({ code }) => {
   useEffect(() => {
