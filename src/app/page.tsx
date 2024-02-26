@@ -4,7 +4,7 @@ import Link from 'next/link'
 export default function Home() {
   return (
     <div className="flex place-content-center">
-      <div className="absolute top-[400px] text-center text-3xl text-[#bdfea3] opacity-60">
+      <div className="absolute top-[400px] text-center text-3xl text-[#bdfea3] opacity-70">
       Building and educating on
       <br />
       Ethereum for the Web3 era
