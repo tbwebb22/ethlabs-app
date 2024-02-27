@@ -12,8 +12,8 @@ import Footer from "./components/Footer";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "ETHLabs.io",
-  description: "The ETHLabs.io webapp",
+  title: "ETHLabs",
+  description: "Building and educating on Ethereum for the Web3 era",
 };
 
 export default function RootLayout({
@@ -45,7 +45,7 @@ export default function RootLayout({
         </div>
         <div className="flex flex-col min-h-screen">
           {children}
-          <Footer />
+          {/* <Footer /> */}
         </div>
       </body>
     </html>
