@@ -33,10 +33,10 @@ export default function RootLayout({
       </Head>
       <body className="font-sans">
         <Navbar />
-        <div className="fixed top-0 h-[1000px] w-full overflow-hidden -z-10">
+        <div className="fixed top-0 left-0 right-0 bottom-0 -z-10 overflow-hidden">
           <Image
             src="/ETHLabsCity.png"
-            alt="Hero Image"
+            alt="ETHLabs city hero image"
             layout="fill"
             objectFit="cover"
             priority
