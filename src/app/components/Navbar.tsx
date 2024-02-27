@@ -17,7 +17,7 @@ export default function Navbar() {
                 alt="Logo"
                 width="250"
                 height="1"
-                className="opacity-100 mx-2 px-10 py-1 hover:bg-black/100"
+                className="opacity-100 mx-2 px-10 py-1 hover:bg-black/50"
               />
             </Link>
           </div>
