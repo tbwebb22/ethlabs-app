@@ -9,7 +9,7 @@ export default function Navbar() {
   return (
     <div className="absolute z-40 w-full">
       <div className="p-3">
-        <div className="container mx-auto flex items-center justify-between">
+        <div className="mx-auto flex items-center justify-between">
           <div>
             <Link href="/" className="">
               <Image
@@ -17,7 +17,7 @@ export default function Navbar() {
                 alt="Logo"
                 width="250"
                 height="1"
-                className="opacity-100 mx-2 px-10 py-1 hover:bg-black/50"
+                className="opacity-90 mx-2 px-10 py-1 hover:bg-black/50 hover:opacity-100"
               />
             </Link>
           </div>
