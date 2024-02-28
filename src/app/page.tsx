@@ -26,7 +26,7 @@ export default function Home() {
               priority
             />
             <div className="absolute inset-0 flex justify-center items-center">
-              <span className="text-[#bdfea3] text-opacity-80 group-hover:text-[#bdfea3] group-hover:text-opacity-100 font-orbitron text-2xl font-medium">
+              <span className="text-[#cee5f9] text-opacity-100 group-hover:text-[#bdfea3] group-hover:text-opacity-100 font-orbitron text-2xl font-medium">
                 Let&apos;s build together
               </span>
             </div>
