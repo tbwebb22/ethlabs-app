@@ -19,10 +19,10 @@ const config: Config = {
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
-    },
-    fontFamily: {
-      // 'sans': ['Eurostile', 'ui-sans-serif', 'system-ui'],
-      orbitron: ["Orbitron", "sans-serif"],
+      fontFamily: {
+        orbitron: ["Orbitron", "sans-serif"], // Add this line
+        eurostile: ["Eurostile", "ui-sans-serif", "system-ui"], // If you want to include Eurostile
+      },
     },
   },
   plugins: [],

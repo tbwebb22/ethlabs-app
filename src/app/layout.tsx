@@ -1,15 +1,12 @@
 /* eslint-disable @next/next/no-page-custom-font */
 import type { Metadata } from "next";
 import Head from "next/head";
-import { Inter } from "next/font/google";
 import "./globals.css";
 import Navbar from "./components/Navbar";
 import Image from "next/image";
 import "highlight.js/styles/dark.css";
 import Link from "next/link";
 import Footer from "./components/Footer";
-
-const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "ETHLabs",
@@ -31,7 +28,7 @@ export default function RootLayout({
           rel="stylesheet"
         />
       </Head>
-      <body className="font-sans">
+      <body className="font-eurostile">
         <Navbar />
         <div className="fixed top-0 left-0 right-0 bottom-0 -z-10 overflow-hidden">
           <Image

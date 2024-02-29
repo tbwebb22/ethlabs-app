@@ -18,7 +18,7 @@ export default function Home() {
         <div className="group">
           <Link href="https://google.com" target="_blank" className="relative">
             <Image
-              src="/CTAButton2.png"
+              src="/CTAButton.png"
               className="opacity-80 group-hover:opacity-100"
               alt="Let's work together"
               width={400}
