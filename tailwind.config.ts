@@ -1,11 +1,5 @@
 import type { Config } from "tailwindcss";
 
-// font-normal == 400
-// font-medium == 500
-// font-semibold == 600
-// font-bold == 700
-// font-extrabold == 800
-
 const config: Config = {
   content: [
     "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
@@ -20,8 +14,8 @@ const config: Config = {
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
       fontFamily: {
-        orbitron: ["Orbitron", "sans-serif"], // Add this line
-        eurostile: ["Eurostile", "ui-sans-serif", "system-ui"], // If you want to include Eurostile
+        orbitron: ["Orbitron", "sans-serif"],
+        eurostile: ["Eurostile", "ui-sans-serif", "system-ui"],
       },
     },
   },
