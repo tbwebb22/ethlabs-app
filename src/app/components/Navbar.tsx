@@ -26,13 +26,13 @@ function MobileNavModal({
           >
             Memos
           </Link>
-          <Link
+          {/* <Link
             className="mx-2 px-10 mt-8 text-2xl hover:bg-black/50 font-orbitron font-medium text-[#417ec3] hover:text-[#cdffb8]"
             href="/about"
             onClick={() => setIsOpen(false)}
           >
             About
-          </Link>
+          </Link> */}
         </div>
       </dialog>
     </>
@@ -89,12 +89,12 @@ export default function Navbar() {
             >
               Memos
             </Link>
-            <Link
+            {/* <Link
               className="mx-2 px-10 py-1 text-2xl hover:bg-black/50 font-orbitron font-medium text-[#417ec3] hover:text-[#cdffb8]"
               href="/about"
             >
               About
-            </Link>
+            </Link> */}
           </div>
         </div>
       </div>
