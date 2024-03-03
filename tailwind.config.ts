@@ -15,7 +15,7 @@ const config: Config = {
       },
       fontFamily: {
         orbitron: ["Orbitron", "sans-serif"],
-        eurostile: ["Eurostile", "ui-sans-serif", "system-ui"],
+        eurostile: ["Eurostile", "sans-serif"],
       },
     },
   },
