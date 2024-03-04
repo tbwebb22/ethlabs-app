@@ -1,11 +1,9 @@
-/* eslint-disable @next/next/no-page-custom-font */
 import type { Metadata } from "next";
 import Head from "next/head";
 import "./globals.css";
 import Navbar from "./components/Navbar";
 import Image from "next/image";
 import "highlight.js/styles/dark.css";
-import Link from "next/link";
 import Footer from "./components/Footer";
 
 export const metadata: Metadata = {
