@@ -16,7 +16,11 @@ export default function Home() {
 
       <div className="flex justify-center items-center mx-4">
         <div className="group">
-          <Link href="https://google.com" target="_blank" className="relative">
+          <Link
+            href="https://forms.gle/Vzmc6k7HQZGcBXrt9"
+            target="_blank"
+            className="relative"
+          >
             <Image
               src="/CTAButton.png"
               className="opacity-80 group-hover:opacity-100"
