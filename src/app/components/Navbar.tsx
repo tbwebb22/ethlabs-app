@@ -47,8 +47,9 @@ export default function Navbar() {
                 alt="Logo"
                 width="250"
                 height="1"
-                className="opacity-90 mx-2 px-10 py-1 hover:bg-black/50 hover:opacity-100"
+                className="opacity-90 mx-1 px-0 pb-4 py-1 md:mx-2 md:px-10 md:py-1 hover:bg-black/50 hover:opacity-100"
               />
+              {/* className="opacity-90 mx-2 px-10 py-1 hover:bg-black/50 hover:opacity-100" */}
             </Link>
           </div>
           <div className="md:hidden">
