@@ -23,9 +23,9 @@ export default function memo0() {
           03/06/2024
         </div>
         <br />
-        Today I&apos;m excited to announce the genesis of ETHLabs, a Web3 dev
-        agency. Initially ETHLabs will consist solely of myself, with the focus
-        of building and testing EVM smart contracts for clients.
+        Today I&apos;m excited to announce the launch of ETHLabs, a Web3 dev
+        agency. Initially ETHLabs will consist solely of myself, focused on
+        building and testing EVM smart contracts for clients.
         <br /> <br />
         I&apos;ll be writing these memos in the spirit of transparency to:
         <ul className="list-disc">
@@ -60,8 +60,8 @@ export default function memo0() {
         <br /> <br />
         I decided I wanted to start building in the space rather than just
         investing. I read books about Ethereum, took classes on Solidity, and
-        studied codebases of more protocols. In 2020 I built and launched a
-        small DeFi protocol as a solo dev and learned a lot about building smart
+        studied more protocol codebases. In 2020 I built and launched a small
+        DeFi protocol as a solo dev and learned a lot about building smart
         contracts and web apps, the degen culture, and many of the challenges
         that Web3 founders face.
         <br /> <br />
@@ -69,7 +69,7 @@ export default function memo0() {
         from it enabled me to transition from my previous career as a mechanical
         engineer into Web3 full time. I landed a job as a Solidity developer at
         Decent Labs, a Web3 venture studio. I worked at Decent for a little over
-        two years building both internal and client projects. This experience
+        two years, building both internal and client projects. This experience
         was invaluable as I further developed my technical skills, and also
         gained a lot of insight into launching startups and protocols in Web3.
         <br /> <br />
@@ -83,9 +83,9 @@ export default function memo0() {
         <br /> <br />
         Now its time for me to start building again. Right now I&apos;m more
         bullish on Web3 than I&apos;ve ever been, and I&apos;m incredibly
-        excited to see where we can go in this next cycle. If you have a project
-        you need help with, please reach out, I&apos;d love to build something
-        awesome with you.
+        excited to see where this space will go over the coming years. If you
+        have a project you need help with, please reach out, I&apos;d love to
+        build something awesome with you.
         <br /> <br />- Taylor
       </div>
     </main>
