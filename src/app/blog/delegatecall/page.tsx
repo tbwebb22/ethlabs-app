@@ -77,7 +77,7 @@ contract D {
 }
 `;
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
+    <main className="flex min-h-screen flex-col items-center justify-between py-24">
       <div className="container mx-auto max-w-3xl items-start text-xl mt-12">
         <Link
           href="/blog"
